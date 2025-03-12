@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://gamelegends.cc/ -->
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laybays game- Casual game collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .games-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);  
+            gap: 20px;
+        }
+
+        .game-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .game-header {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 20px;
+            align-items: center;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+
+        .game-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .game-icons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .game-banner {
+            width: 100%;
+            height: 180px;  
+            object-fit: cover;
+        }
+
+        .game-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        .game-icon.small {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+        }
+
+        .game-title {
+            flex-grow: 1;
+        }
+
+        .game-title h2 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .download-btn {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #45a049;
+        }
+
+        .game-content {
+            padding: 20px;
+        }
+
+        .game-description {
+            margin-bottom: 20px;
+        }
+
+        .game-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .feature {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .screenshots img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .screenshots img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+			text-align: center;
+            padding: 80px 20px;
+        }
+		.footer{
+			position: absolute; /* 绝对定位 */
+		    bottom: 0; /* 底部对齐 */
+		    width: 100%; /* 全宽 */
+		}
+
+        
+        @media (max-width: 992px) {
+            .games-container {
+                grid-template-columns: repeat(2, 1fr); 
+            }
+        }
+
+        @media (max-width: 576px) {
+            .games-container {
+                grid-template-columns: 1fr;  
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>DBA CONCESSIONS, L.L.C.</h1>
+        <p>Selected casual games, making happiness within reach</p>
+    </div>
+
+    <div class="games-container">
+        <div class="game-card">
+            <a href="https://play.google.com/store/apps/details?id=com.blockblast.blastgames">
+                <img src="./img/1024.png" alt="game-banner" class="game-banner">
+                <div class="game-header">
+                    <div class="game-info">
+                        <img src="./img/icon.png" alt="game-icon" class="game-icon">
+                        <div class="game-title">
+                            <h2>Block Blast</h2>
+                        </div>
+                    </div>
+                
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <a href="https://play.google.com/store/apps/details?id=com.streetdunk.dunkhoop">
+                <img src="./img/1024(1).png" alt="game-banner" class="game-banner">
+                <div class="game-header">
+                    <div class="game-info">
+                        <img src="./img/icon(1).png" alt="game-icon" class="game-icon">
+                        <div class="game-title">
+                            <h2>Street Dunk Hoop</h2>
+                        </div>
+                    </div>
+                
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <a href="https://play.google.com/store/apps/details?id=com.runpenguins.rungames">
+                <img src="./img/1024(2).png" alt="game-banner" class="game-banner">
+                <div class="game-header">
+                    <div class="game-info">
+                        <img src="./img/icon(2).png" alt="game-icon" class="game-icon">
+                        <div class="game-title">
+                            <h2>Run Penguins</h2>
+                        </div>
+                    </div>
+                
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <a href="https://play.google.com/store/apps/details?id=com.wheelshoot.hitgames">
+                <img src="./img/1024(3).png" alt="game-banner" class="game-banner">
+                <div class="game-header">
+                    <div class="game-info">
+                        <img src="./img/icon(3).png" alt="game-icon" class="game-icon">
+                        <div class="game-title">
+                            <h2>Lipstick : Spin Wheel Shoot</h2>
+                        </div>
+                    </div>
+                
+                </div>
+            </a>
+        </div>
+                
+  
+
+	<div class="footer">
+		<footer>
+			<p>© 2024 Laybays Game All rights reserved</p>
+			<p>Contact us: loua07785@gmail.com</p>
+			<p><a href="https://www.privacypolicies.com/live/eb6cb47d-adf0-4a62-81a6-36471fdc13a9" style="color: white; text-decoration: underline;">Privacy policy</a></p>
+		</footer>
+	</div>
+
+ </body></html>
